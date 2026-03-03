@@ -163,7 +163,7 @@ const contentData = {
     'boutique': {
         title: "🛒 Boutique Serveur",
         text: `
-            <p>Soutenez <b>Los Santos City</b> et obtenez des avantages exclusifs en jeu. Tous les fonds servent à payer l'hébergement et le développement.</p>
+            <p>Soutenez <b>Pacific Roleplay</b> et obtenez des avantages exclusifs en jeu. Tous les fonds servent à payer l'hébergement et le développement.</p>
             
             <div class="info-box important">
                 ⚠️ Une fois l'achat effectué, ouvrez un ticket "Donation" sur Discord pour recevoir vos biens.
@@ -172,7 +172,7 @@ const contentData = {
             <div class="shop-grid">
                 
                 <div class="shop-card">
-                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="VIP Gold">
+                    <img src="https://videos.openai.com/az/vg-assets/task_01kj8j5761fhfbskf7ese1abgz%2F1771961520_img_0.webp?se=2026-03-08T00%3A00%3A00Z&sp=r&sv=2026-02-06&sr=b&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-03T12%3A59%3A29Z&ske=2026-03-10T13%3A04%3A29Z&sks=b&skv=2026-02-06&sig=LlMlxdzvOn1xFAuRM0mk4HdzWxmQWMa348lRGkyvK8g%3D&ac=oaivgprodscus2" class="shop-img" alt="VIP Gold">
                     <div class="shop-content">
                         <div class="shop-title">Pack VIP Gold</div>
                         <div class="shop-price">10.00€ / mois</div>
@@ -182,7 +182,7 @@ const contentData = {
                 </div>
 
                 <div class="shop-card">
-                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Pack Import">
+                    <img src="https://videos.openai.com/az/vg-assets/task_01kj8j5761fhfbskf7ese1abgz%2F1771961520_img_0.webp?se=2026-03-08T00%3A00%3A00Z&sp=r&sv=2026-02-06&sr=b&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-03T12%3A59%3A29Z&ske=2026-03-10T13%3A04%3A29Z&sks=b&skv=2026-02-06&sig=LlMlxdzvOn1xFAuRM0mk4HdzWxmQWMa348lRGkyvK8g%3D&ac=oaivgprodscus2" class="shop-img" alt="Pack Import">
                     <div class="shop-content">
                         <div class="shop-title">Pack Import</div>
                         <div class="shop-price">25.00€</div>
@@ -192,7 +192,7 @@ const contentData = {
                 </div>
 
                 <div class="shop-card">
-                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Pack Gang">
+                    <img src="https://videos.openai.com/az/vg-assets/task_01kj8j5761fhfbskf7ese1abgz%2F1771961520_img_0.webp?se=2026-03-08T00%3A00%3A00Z&sp=r&sv=2026-02-06&sr=b&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-03T12%3A59%3A29Z&ske=2026-03-10T13%3A04%3A29Z&sks=b&skv=2026-02-06&sig=LlMlxdzvOn1xFAuRM0mk4HdzWxmQWMa348lRGkyvK8g%3D&ac=oaivgprodscus2" class="shop-img" alt="Pack Gang">
                     <div class="shop-content">
                         <div class="shop-title">Pack Création Gang</div>
                         <div class="shop-price">50.00€</div>
@@ -202,7 +202,7 @@ const contentData = {
                 </div>
 
                 <div class="shop-card">
-                    <img src="https://cdn.discordapp.com/attachments/1395482307552346265/1467506779213791504/task_01kgcn07yfeawsb5y2whd91bw62F1769951249_img_1.png" class="shop-img" alt="Custom Plaque">
+                    <img src="https://videos.openai.com/az/vg-assets/task_01kj8j5761fhfbskf7ese1abgz%2F1771961520_img_0.webp?se=2026-03-08T00%3A00%3A00Z&sp=r&sv=2026-02-06&sr=b&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-03-03T12%3A59%3A29Z&ske=2026-03-10T13%3A04%3A29Z&sks=b&skv=2026-02-06&sig=LlMlxdzvOn1xFAuRM0mk4HdzWxmQWMa348lRGkyvK8g%3D&ac=oaivgprodscus2" class="shop-img" alt="Custom Plaque">
                     <div class="shop-content">
                         <div class="shop-title">Plaque Personnalisée</div>
                         <div class="shop-price">5.00€</div>
@@ -222,39 +222,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const textEl = document.getElementById('c-text');
     const contentArea = document.getElementById('content-area');
 
-    function loadContent(id) {
+    function loadContent(id, skipScroll = false) {
         const data = contentData[id];
         if (!data) return;
 
         // Animation de sortie
         contentArea.style.opacity = '0';
-        
+
         setTimeout(() => {
             titleEl.innerHTML = data.title;
             textEl.innerHTML = data.text;
-            
+
             // Animation d'entrée
             contentArea.style.opacity = '1';
             contentArea.classList.add('fade-in');
-            
-            // Scroll en haut de la zone de texte
-            window.scrollTo({ top: 400, behavior: 'smooth' });
+
+            // Scroll en haut de la zone de texte seulement si demandé
+            if (!skipScroll) {
+                window.scrollTo({ top: 400, behavior: 'smooth' });
+            }
         }, 300);
     }
 
     navItems.forEach(item => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
-            
+
             // Gestion de l'état actif
             navItems.forEach(nav => nav.classList.remove('active'));
             item.classList.add('active');
-            
+
             const category = item.getAttribute('data-cat');
             loadContent(category);
         });
     });
 
-    // Chargement initial
-    loadContent('bienvenue');
+    // Chargement initial - On ne scroll pas
+    loadContent('bienvenue', true);
 });
